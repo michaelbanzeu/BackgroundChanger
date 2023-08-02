@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,13 +9,15 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  transition: 0.5s ease;
 }
 
-.container{
-  border: 2px solid #333;
+.container {
+  border: 2px solid #3f3636;
+
 }
 
-.color{
+.color {
   display: table-cell;
   width: 50px;
   height: 50px;
@@ -23,18 +26,18 @@ body {
   border: 2px solid #FFF;
 }
 
-.clr1{
+.clr1 {
   background-color: #9b0fdb;
 }
 
-.clr2{
+.clr2 {
   background-color: #ffea00;
 }
 
-.clr3{
+.clr3 {
   background-color: #04db53;
 }
 
-.clr4{
+.clr4 {
   background-color: #0f68db;
 }
